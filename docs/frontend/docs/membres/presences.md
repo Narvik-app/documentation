@@ -8,7 +8,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 # Gestion des présences <RoleLevelComponent level="badger" />
 
-![](./images/presence.png)
+![](./images/presences.jpg)
 
 - Présences externes (section orange)
 - Présences des membres du club
@@ -17,18 +17,20 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
   - Affichage en rouge lorsque le certificat médical est expiré.
 
 ## Connexion en mode badgeuse/pointeuse
+> URL : https://narvik.app/admin/config/presences
+
 Afin de simplifier la gestion des mots de passe, il existe un compte spécifique pour l'ordinateur/tablette accessible à tout le monde et qui sert au pointage (appelé ici badgeuse).
 
 Il s'agit d'une connexion sans mot de passe.
 
-Pour ajouter cette connexion rapide, il faut:
+Pour ajouter cette connexion rapide, il faut :
 
 1. Se connecter en mode admin depuis l'ordinateur qui servira de pointeuse.
-2. Se rendre dans `Administration > Configuration globale`
+2. Se rendre dans `Administration > Configuration > Présences`
 3. Glisser et déposer dans la barre d'adresse du navigateur le bouton jaune `Gestion de présence`   
-   Ou cliquer sur le boutton et lien sera copié dans votre presse-papier.
+   Ou cliquer sur le bouton et lien sera copié dans votre presse-papier.
 4. Se déconnecter
-5. Et voila, en cliquant maintenant dans le nouveau favoris, la connexion sera automatiquement faite sur le compte `badger`
+5. Et voilà, en cliquant maintenant dans le nouveau favori, la connexion sera automatiquement faite sur le compte `badger`
 
 ![](./images/badgeuse.png)
 

@@ -11,6 +11,8 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 ## Imprimer la liste des prix <RoleLevelComponent level="supervisor" />
 Pour imprimer la liste de prix à jour, il suffit de faire "Imprimer la page" depuis votre navigateur.
 
+Le raccourci clavier pour la plupart des navigateur est : `Ctrl` + `P`
+
 Une liste sur 2 colonnes sera générée.
 
 ![](./images/vente-impression.png)
@@ -55,7 +57,7 @@ Pour cela, il suffit de cliquer sur le bouton `+` bleu situé à droite de la ba
 
 ![](./images/vente-liste-4.png)
 
-Une fois cliqué dessus une fenêtre s'ouvre avec à remplir dedans le nom de l'article ainsi que son prix de vente.
+Une fois cliqué dessus, une fenêtre s'ouvre avec à remplir dedans le nom de l'article ainsi que son prix de vente.
 
 Le prix peut être négatif dans le cas d'une réduction par exemple.
 

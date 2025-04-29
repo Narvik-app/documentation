@@ -17,20 +17,26 @@ La recherche est appliquée sur :
 - Nom
 - Prénom
 
-![](./images/liste.png)
+![Liste membres](./images/liste.png)
 
-En cliquant sur une ligne, une fiche détaillée est retournée.
+En cliquant sur une ligne, la fiche détaillée est retournée.
+
+Le bouton `+` permet la création d'une nouvelle fiche membre.
+
+Une fois la fiche membre créée, il est possible d'ajouter celui-ci à une saison.
+
+![Création membre](./images/creation.png)
 
 ## Informations détaillées <RoleLevelComponent level="supervisor" />
-![](./images/details.png)
+![Informations détaillées membre](./images/details.jpg)
 
 Actions possibles :
 
-- Changement du mot de passe <RoleLevelComponent level="admin" />
-- Modification du rôle <RoleLevelComponent level="admin" />
-- Activation/Désactivation du compte <RoleLevelComponent level="admin" />
+- Modification du rôle/permissions <RoleLevelComponent level="admin" />
+- Suppression du compte <RoleLevelComponent level="admin" />
+- Ajout/Suppression d'une saison (club principal ou secondaire) <RoleLevelComponent level="admin" />
 - Affichage des statistiques de présences <RoleLevelComponent level="supervisor" />
   - 12 dernièrs mois
-  - Possibilité de supprimer une présence <RoleLevelComponent level="admin" />
+  - Possibilité de modifier/supprimer une présence <RoleLevelComponent level="admin" />
 
 

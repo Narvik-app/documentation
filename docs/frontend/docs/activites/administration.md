@@ -11,6 +11,8 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 Actions possibles :
 - Changement du nom
+- Configuration de la visibilité   
+  Ce paramètre sera répercuté sur le formulaire d'enregistrement de présence.
 - Désactivation d'une activité
-- Migration d'une activité (possible seulement si l'activité est désactivée)
-- Suppression d'une activité (possible seulement si l'activité est désactivée)
+- Migration d'une activité
+- Suppression d'une activité

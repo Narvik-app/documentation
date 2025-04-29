@@ -23,6 +23,8 @@ L'export en csv est possible depuis plusieurs endroits :
 ![](./images/import-donnees/narvik-export-1.png)
 
 ## Import <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/imports/presences
+
 L'import se fait depuis l'interface d'administration.
 
 Avant d'effectuer l'import, les **activitiés doivent être présentes**.  
@@ -39,3 +41,5 @@ member.licence,date,activities.0.name,activities.1.name
 45678412,2018-08-04T00:00:00+00:00,50M - Toutes armes,
 45671134,2018-08-03T00:00:00+00:00,Bureau,
 ```
+
+![](./images/import-donnees/import-narvik-1.png)

@@ -9,6 +9,11 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 # Import des données <RoleLevelComponent level="admin" />
 
+- [Import des membres](#import-des-membres)
+- [Import des membres club secondaire](#import-des-membres-club-secondaire)
+- [Import des certificats médicaux](#import-des-certificats-medicaux)
+- [Import des photos](#import-des-photos)
+
 ## Import des membres
 L'import se fait depuis un CSV généré depuis le site itac
 
@@ -32,11 +37,13 @@ L'import se fait depuis un CSV généré depuis le site itac
        ![](./images/import-donnees/export-itac-membres-4.png)
 
 ### Import depuis le site <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/imports/members
+
 La page est accessible depuis le menu d'administration.
 
 Le fichier envoyé doit obligatoirement être au format CSV.
 
-![](./images/import-donnees/import-membre-1.png)
+![](./images/import-donnees/import-membre.png)
 
 ## Import des membres club secondaire
 L'import se fait depuis un CSV généré depuis le site itac
@@ -61,14 +68,36 @@ L'import se fait depuis un CSV généré depuis le site itac
        ![](./images/import-donnees/export-itac-2nd-club-4.png)
 
 ### Import depuis le site <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/imports/members
+
 La page est accessible depuis le menu d'administration.
 
 Le fichier envoyé doit obligatoirement être au format CSV.
 
 Une fois l'import effectué, une migration des présences externes vers présence membres est automatiquement effectuée.
 
-![](./images/import-donnees/import-membre-2nd-club-1.png)
+![](./images/import-donnees/import-membre.png)
 
+## Import des certificats médicaux
+L'import se fait depuis un XLSX généré depuis le site eden
+
+- [Export depuis eden](#export-depuis-eden)
+- [Import depuis le site](#import-depuis-le-site-2)
+
+### Export depuis eden
+1. Se rendre sur la page **Mon Club > Gérer mes adherents** : https://eden.fftir.org/#/espace-club/gestion-adherents
+2. Cocher la case en haut du tableau permettant de sélectionner tous les adhérents  
+   ![](./images/import-donnees/export-eden.png)
+3. Cliquer sur l'icône Fichier X à droite
+
+### Import depuis le site <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/imports/members
+
+La page est accessible depuis le menu d'administration.
+
+Le fichier envoyé doit obligatoirement être au format XLSX.
+
+![](./images/import-donnees/import-membre.png)
 
 ## Import des photos
 
@@ -79,6 +108,8 @@ Une fois l'import effectué, une migration des présences externes vers présenc
 3. Télécharger le fichier zip fourni par itac sur le site
 
 ### Import depuis le site <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/imports/photos
+
 La page est accessible depuis le menu d'administration.
 
-Le fichier envoyé doit obligatoirement être l'archive généré depuis itac.
+Le fichier envoyé doit obligatoirement être l'archive générée depuis itac.

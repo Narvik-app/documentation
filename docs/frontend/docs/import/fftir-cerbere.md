@@ -10,7 +10,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 **L'import ne créé aucun utilisateur**.
 
 Il est fortement conseillé de faire un [Import des utilisateurs](fftir-itac) avant.   
-Sans cela certaines présences pourrait ne pas être importé.
+Sans cela certaines présences pourrait ne pas être importées.
 
 ## Export depuis Cerbère
 Les données de présence dans Cerbère pouvant être nombreuses, sont export peut prendre beaucoup de temps.
@@ -28,7 +28,7 @@ Les données de présence dans Cerbère pouvant être nombreuses, sont export pe
    ![](images/import-donnees/cerbere-export-presence-03.jpg)
 
 ::: danger
-Bien attendre que la liste à fini de se remplir (peut prendre quelques dizaine de minutes)
+Bien attendre que la liste a fini de se remplir (peut prendre quelques dizaines de minutes)
 :::
 
 5. Se rendre dans l'onglet `Exporter` et cliquer sur `Excel`  
@@ -36,9 +36,9 @@ Bien attendre que la liste à fini de se remplir (peut prendre quelques dizaine 
    L'export peut aussi prendre une 10ène de minutes.
 
 ## Import depuis le site <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/imports/cerbere
 
-Avant d'effectuer l'import, il est fortement recommander d'effecteur un [import des membres](fftir-itac#import-des-membres).
+Avant d'effectuer l'import, il est fortement recommandé d'effectuer un [import des membres](fftir-itac#import-des-membres).
 
-L'import est disponible à l'adresse suivante : `<site>/admin/imports/cerbere`
 
 ![](./images/import-donnees/import-cerbere-1.png)

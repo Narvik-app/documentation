@@ -46,13 +46,13 @@ Cela vous permettra d'obtenir le décompte de votre nombre de jours ouvert au pu
 
 ![](./images/config-globale.png)
 
-[Plus d'information sur la connexion en mode badgeuse](/frontend/docs/membres/presences.html#connexion-en-mode-badgeuse-pointeuse)
+[Plus d'information sur la connexion en mode badgeuse/pointeuse](/frontend/docs/membres/presences.html#connexion-en-mode-badgeuse-pointeuse)
 
 ## Import des membres
 > URL : https://narvik.app/admin/imports/members
 
 Il vous est possible de créer manuellement les membres en cliquant sur le bouton + située sur la page de [listing des membres](https://narvik.app/admin/members).
 
-Il existe aussi une fonctionnalité d'import de masse supportant actuellement un fichier structuré au format CSV.
+Il existe aussi une fonctionnalité d'[import de masse](/frontend/docs/import#membres) supportant actuellement un fichier structuré au format CSV.
 
 Si jamais votre fichier est formaté différemment, n'hésitez pas à prendre [contact](https://about.narvik.app/contact) avec nous et nous verrons ensemble ce que nous pourrons faire afin de le supporter dans le futur.

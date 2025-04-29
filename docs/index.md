@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Narvik"
-  text: "Logiciel de gestion pour club"
+  text: "Logiciel de gestion pour association"
   tagline: "Plateforme en ligne pour faciliter la gestion d'un club sportif. Avec support des spécificités liées au Tir Sportif."
   image:
     src: /logo-narvik-white.png

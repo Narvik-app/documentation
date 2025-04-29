@@ -16,6 +16,8 @@ La configuration de l'inventaire est faite sur 2 pages
 - Inventaire (création d'article)
 
 ## Catégories <RoleLevelComponent level="admin" />
+> URL : https://narvik.app/admin/inventories/categories
+
 ![](./images/categories.png)
 
 ::: warning Suppression
@@ -27,15 +29,17 @@ Le changement d'ordre d'une catégorie s'effectue en cliquant sur les fléches b
 ## Inventaire <RoleLevelComponent level="admin" />
 
 ### Listing
+> URL : https://narvik.app/admin/inventories
+
 ![](./images/inventaire.png)
 
 Le tableau affiche tous les articles correspondants aux filtres appliqués (recherche et/ou catégories spécifiées).
 
-Lors de la sélection d'un article sur le côté droite de la page apparait un récapitulatif de celui-ci ainsi que d'un bouton redirigeant sur la [fiche complète.](#page-article)
+Lors de la sélection d'un article sur le côté droite de la page apparait un récapitulatif de celui-ci ainsi que d'un bouton redirigeant sur la [fiche complète.](#fiche-produit)
 
 Lorsque le stock du produit atteint le seuil d'alerte défini celui-ci est affiché en rouge dans la liste.
 
-### Page article
+## Fiche produit
 ![](./images/detail-article.png)
 
 Cette page permet d'avoir une vue détaillée pour un produit.
