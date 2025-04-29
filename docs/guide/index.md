@@ -4,4 +4,4 @@
 # Administrateur association
 [Documentation](../frontend/index.md)
 
-[Premiers pas](../frontend/premiers-pas/club)
+[Premiers pas](../frontend/premiers-pas/association)

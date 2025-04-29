@@ -7,8 +7,8 @@ hero:
   text: "Utilisation du site"
   actions:
     - theme: brand
-      text: Mise en route club
-      link: ./premiers-pas/club
+      text: Mise en route association
+      link: ./premiers-pas/association
     - theme: brand
       text: Guide utilisateur
       link: ./premiers-pas/utilisateur

@@ -6,9 +6,9 @@ prev: false
 import RoleLevelComponent from '../../components/RoleLevelComponent.vue'
 </script>
 
-# Démarrage rapide club <RoleLevelComponent level="admin" />
+# Démarrage rapide association <RoleLevelComponent level="admin" />
 
-La mise en route une fois le club créé est assez rapide.
+La mise en route une fois l'association créée est assez rapide.
 
 Il y a 3 étapes conseillées :
 
@@ -19,7 +19,7 @@ Il y a 3 étapes conseillées :
 ## Configuration des activités
 > URL : https://narvik.app/admin/config/activities
 
-La gestion des activités étant l'élément centrale, il est fortement conseillé d'en créer au moins 3.
+La gestion des activités étant l'élément central, il est fortement conseillé d'en créer au moins 3.
 
 Plus il y aura d'activités d'enregistrées, plus vous pourrez obtenir des statistiques détaillées sur celles-ci.
 

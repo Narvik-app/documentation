@@ -37,7 +37,7 @@ features:
   - title: Import depuis Cerbère
     icon: 📝
     details: Récupération de l'historique de présence enregistré dans Cerbère.
-  - title: Statistiques club
+  - title: Statistiques association
     icon: 📊
     details: >
       - Jours ouverts <br/>

@@ -85,8 +85,8 @@ export default defineConfig({
           text: 'Premiers pas',
           items: [
             {
-              text: 'Club',
-              link: '/frontend/premiers-pas/club'
+              text: 'Association',
+              link: '/frontend/premiers-pas/association'
             },
             {
               text: 'Utilisateur',
