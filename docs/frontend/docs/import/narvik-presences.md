@@ -20,7 +20,7 @@ L'export en csv est possible depuis plusieurs endroits :
    - Une date doit être impérativement définie.
 - Profil d'un membre
 
-![](./images/import-donnees/narvik-export-1.png)
+![](images/import-donnees/narvik-export-presences-1.png)
 
 ## Import <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/imports/presences
@@ -42,4 +42,4 @@ member.licence,date,activities.0.name,activities.1.name
 45671134,2018-08-03T00:00:00+00:00,Bureau,
 ```
 
-![](./images/import-donnees/import-narvik-1.png)
+![](images/import-donnees/narvik-import-presences-1.png)

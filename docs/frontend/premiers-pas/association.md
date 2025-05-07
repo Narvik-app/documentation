@@ -12,9 +12,22 @@ La mise en route une fois l'association créée est assez rapide.
 
 Il y a 3 étapes conseillées :
 
-1. [Configuration des activités](#configuration-des-activites)
-2. [Configuration globale](#configuration-globale)
+1. [Configuration globale](#configuration-globale)
+2. [Configuration des activités](#configuration-des-activites)
 3. [Import des membres](#import-des-membres)
+
+## Configuration globale
+> URL : https://narvik.app/admin/config
+
+Sur cette page, vous pourrez définir votre logo afin que celui-ci soit affiché sur le site et aussi dans certains mails et notifications.
+
+Afin d'obtenir des statistiques plus détaillées, il vous est possible d'exclure certaines activités de votre décompte des jours ouverts.
+
+Cela vous permettra d'obtenir le décompte de votre nombre de jours ouvert au public.
+
+![](./images/config-globale.png)
+
+[Plus d'information sur la connexion en mode badgeuse/pointeuse](/frontend/docs/membres/presences.html#connexion-en-mode-badgeuse-pointeuse)
 
 ## Configuration des activités
 > URL : https://narvik.app/admin/config/activities
@@ -34,19 +47,6 @@ Voici une liste d'activités qui sont souvent utilisées :
 
 
 [Plus d'information](/frontend/docs/activites/administration)
-
-## Configuration globale
-> URL : https://narvik.app/admin/config
-
-Sur cette page, vous pourrez définir votre logo afin que celui-ci soit affiché sur le site et aussi dans certains mails et notifications.
-
-Afin d'obtenir des statistiques plus détaillées, il vous est possible d'exclure certaines activités de votre décompte des jours ouverts.
-
-Cela vous permettra d'obtenir le décompte de votre nombre de jours ouvert au public.
-
-![](./images/config-globale.png)
-
-[Plus d'information sur la connexion en mode badgeuse/pointeuse](/frontend/docs/membres/presences.html#connexion-en-mode-badgeuse-pointeuse)
 
 ## Import des membres
 > URL : https://narvik.app/admin/imports/members
