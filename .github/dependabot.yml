@@ -8,6 +8,10 @@ updates:
       day: "saturday"
       time: "02:00"
     open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
@@ -17,3 +21,7 @@ updates:
       day: "saturday"
       time: "02:00"
     open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
