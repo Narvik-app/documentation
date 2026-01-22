@@ -5,7 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-      day: "saturday"
+      day: "friday"
       time: "02:00"
     open-pull-requests-limit: 10
     commit-message:
@@ -18,7 +18,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-      day: "saturday"
+      day: "friday"
       time: "02:00"
     open-pull-requests-limit: 10
     commit-message:
