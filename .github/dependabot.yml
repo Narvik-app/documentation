@@ -4,8 +4,8 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "monthly"
-      day: "saturday"
+      interval: "weekly"
+      day: "friday"
       time: "02:00"
     open-pull-requests-limit: 10
     commit-message:
@@ -17,8 +17,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
-      day: "saturday"
+      interval: "weekly"
+      day: "friday"
       time: "02:00"
     open-pull-requests-limit: 10
     commit-message:
