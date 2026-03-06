@@ -190,7 +190,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/froozeify/narvik' }
+      { icon: 'github', link: 'https://github.com/Narvik-app' }
     ],
 
     footer: {

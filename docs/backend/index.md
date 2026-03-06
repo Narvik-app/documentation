@@ -15,7 +15,7 @@ hero:
       link: ./dev/participer
     - theme: alt
       text: GitHub
-      link: https://github.com/froozeify/narvik-back
+      link: https://github.com/Narvik-app/backend
       target: _blank
 
 features:
