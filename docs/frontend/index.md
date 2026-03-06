@@ -20,23 +20,34 @@ hero:
       link: https://narvik.app
 
 features:
-  - title: Enregistrement des présences des membres
-    details: Possiblité d'enregistrer les présences extérieurs (club secondaire, découverte, initiation).
-  - title: Profil utilistateur
-    details:
-        Affichage des présences sur les 12 derniers mois. <br/>
-        Date du dernier tir de contrôle.
-  - title: Interface d'administration
-    details: Interface d'administration avec statistiques sur l'utilisation des postes et la présences.
-  - title: Vente
+  - title: Inscription & Accès
     details: >
-      - Catégorisation <br/>
-      - Gestion des moyens de paiements <br/>
-      - Historique par vente <br/>
-      - Historique par produit
-  - title: Inventaire
-    details:  >
-      - Catégorisation <br/>
-      - Historique du prix d'achat et de vente <br/>
-      - Alerte stock bas
+      - Création de compte simplifiée <br/>
+      - Période d'essai <br/>
+      - Interface multi-rôles
+  - title: Gestion des Membres
+    details: >
+      - Permissions granulaires <br/>
+      - Suivi des certificats médicaux <br/>
+      - Historique des activités
+  - title: Gestion des Présences
+    details: >
+      - Enregistrement rapide <br/>
+      - Support des membres extérieurs <br/>
+      - Mode sans présence disponible
+  - title: Communication
+    details: >
+      - Envoi d'emails individuels ou groupés <br/>
+      - Éditeur de templates riche <br/>
+      - Notifications automatiques
+  - title: Point de Vente & Stock
+    details: >
+      - Module POS dédié <br/>
+      - Gestion d'inventaire avec alertes <br/>
+      - Historique des ventes et exports
+  - title: Statistiques & Exports
+    details: >
+      - Tableaux de bord dynamiques <br/>
+      - Statistiques par association ou individuelles <br/>
+      - Exports complets en CSV
 ---

@@ -20,11 +20,20 @@ hero:
 
 features:
   - title: Symfony / API Platform
-    details: Basé sur le framework API Platform.
-  - title: Faible consomation de RAM
-    details: 
-        Le projet est fait pour tourner sur un Raspberry Pi.<br/>
-        Fonctionne avec 500 Mo de RAM.
-  - title: Authentification OAuth
-    details: Utilisé avec un Refresh Token afin de permettre à l'utilisateur de rester connecté sans avoir à se reconnecter manuellement.
+    details: Basé sur le framework API Platform et Symfony.
+  - title: Performance & Légèreté
+    details: >
+      - Optimisé pour Raspberry Pi <br/>
+      - Faible consommation de RAM (512 Mo) <br/>
+      - Runtime moderne avec FrankenPHP
+  - title: Sécurité & Auth
+    details: >
+      - Authentification OAuth2 <br/>
+      - Système de Refresh Token <br/>
+      - Permissions granulaires (Voters)
+  - title: Architecture Modulaire
+    details: >
+      - Système de plugins par club <br/>
+      - Isolation des données multi-tenant <br/>
+      - Messagerie asynchrone (Messenger)
 ---
