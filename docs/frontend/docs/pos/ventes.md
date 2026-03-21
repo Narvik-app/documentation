@@ -11,7 +11,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 ## Imprimer la liste des prix <RoleLevelComponent level="supervisor" />
 Pour imprimer la liste de prix à jour, il suffit de faire "Imprimer la page" depuis votre navigateur.
 
-Le raccourci clavier pour la plupart des navigateur est : `Ctrl` + `P`
+Le raccourci clavier pour la plupart des navigateurs est : `Ctrl` + `P`
 
 Une liste sur 2 colonnes sera générée.
 
@@ -32,7 +32,7 @@ Afin de pouvoir effectuer une vente un vendeur doit être sélectionné.
 La liste affiche toutes les personnes ayant le rôle bénévole ou administrateur.
 
 ### Article présent dans la liste
-Pour ajouter le produit au panier, il suffit de cliquer sur l'icône de caddie bleue situé toute à droite du produit.
+Pour ajouter le produit au panier, il suffit de cliquer sur l'icône de caddie bleue située toute à droite du produit.
 
 Celui-ci sera ajouté dans la colonne de droite, le total à payer sera recalculé automatiquement.
 
@@ -49,7 +49,7 @@ Le bouton `Vider le panier` supprimera tous les articles présents dans le panie
 L'utilisation d'un article personnalisé ne modifiera pas l'état des stocks.
 :::
 
-Dans le cas où l'article ne serait pas présent, ou pour un produit avec tarif dégressif (licence prise pendant l'année par exemple).
+Dans le cas où l'article ne serait pas présent, ou pour un produit avec tarifs dégressifs (licence prise pendant l'année par exemple).
 
 Il est possible de créer un article personnalisé.
 
