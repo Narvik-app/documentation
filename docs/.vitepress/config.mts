@@ -159,6 +159,20 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Prêt',
+          collapsed: true,
+          items: [
+            {
+              text: 'Gestion des articles',
+              link: '/frontend/docs/pret/articles'
+            },
+            {
+              text: 'Prêts',
+              link: '/frontend/docs/pret/prets'
+            },
+          ]
+        },
+        {
           text: 'Développement',
           collapsed: true,
           items: [
