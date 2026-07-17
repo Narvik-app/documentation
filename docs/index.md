@@ -64,7 +64,18 @@ features:
     details: Gestion complète des stocks avec alertes de seuil critique.
   - title: Point de Vente (POS)
     icon: 🛒
-    details: Module dédié pour les ventes avec historique, export CSV et impression.
+    details: >
+      - Gestion de vente <br/>
+      - Historique <br/>
+      - Impression <br/>
+      - Export CSV
+  - title: Gestion des Prêts
+    icon: 🤝
+    details: >
+      - Suivi du matériel prêté <br/>
+      - Historique et statistiques d'utilisation <br/>
+      - Prêt/retour rapide depuis le point de vente <br/>
+      - Impression
   - title: Statistiques association
     icon: 📊
     details: >
