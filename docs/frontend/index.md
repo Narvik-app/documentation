@@ -47,7 +47,7 @@ features:
       - Historique des ventes et exports
   - title: Gestion des Prêts
     details: >
-      - Suivi du matériel prêté aux membres <br/>
+      - Suivi du matériel prêté <br/>
       - Historique et statistiques d'utilisation <br/>
       - Prêt/retour rapide depuis le point de vente
   - title: Statistiques & Exports

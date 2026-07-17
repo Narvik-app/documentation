@@ -8,8 +8,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 # Gestion des articles de prêt <RoleLevelComponent level="admin" />
 
-Le module de Prêt permet de gérer un ensemble de matériel prêté aux membres (armes, optiques,
-accessoires...) ainsi que son historique complet.
+Le module de Prêt permet de gérer un ensemble de matériel prêté ainsi que son historique complet (entretiens et utilisations).
 
 La configuration est faite sur 3 pages
 
@@ -22,11 +21,8 @@ La configuration est faite sur 3 pages
 ## Catégories <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/loans/categories
 
-![Liste des catégories de prêt](./images/categories.png)
-
 ::: info Suppression
-Contrairement à l'inventaire du point de vente, supprimer une catégorie **ne supprime pas** les
-articles qu'elle contient : ceux-ci sont simplement déplacés dans "Sans catégorie".
+Contrairement à l'inventaire du point de vente, supprimer une catégorie **ne supprime pas** les articles qu'elle contient : ceux-ci sont simplement déplacés dans "Sans catégorie".
 :::
 
 Le changement d'ordre d'une catégorie s'effectue en cliquant sur les flèches bleues situées à
@@ -47,17 +43,9 @@ l'identifier rapidement dans l'historique d'un article.
 ### Listing
 > URL : https://narvik.app/admin/loans/items
 
-![Liste des articles de prêt](./images/liste-articles.png)
-
-Le tableau affiche tous les articles correspondants aux filtres appliqués (recherche et/ou
-catégories spécifiées).
-
-Lors de la sélection d'un article sur le côté droit de la page apparaît un récapitulatif de
-celui-ci ainsi qu'un bouton redirigeant vers la [fiche complète](#fiche-article).
+Lors de la sélection d'un article sur le côté droit de la page apparaît un récapitulatif de celui-ci ainsi qu'un bouton redirigeant vers la [fiche complète](#fiche-article).
 
 ### Création / modification
-![Formulaire d'un article de prêt](./images/formulaire-article.png)
-
 Un article dispose des champs suivants :
 
 - **Nom** et **description**
@@ -65,8 +53,7 @@ Un article dispose des champs suivants :
 - **Catégorie**
 - **Prix de prêt**, **prix d'achat** et **prix de vente**
 - **Statut** : Disponible, Maintenance, Vendu ou Retiré
-- **Visible sur la page de vente** : si activé, l'article apparaît dans l'encart "Matériel en
-  prêt" lors d'une vente au [point de vente](/frontend/docs/pos/ventes)
+- **Visible sur la page de vente** : si activé, l'article apparaît dans l'encart "Matériel en prêt" lors d'une vente au [point de vente](/frontend/docs/pos/ventes)
 
 ::: warning Statut
 Seuls les articles au statut **Disponible** peuvent être prêtés. Un article en maintenance, vendu
@@ -81,13 +68,11 @@ Cette page permet d'avoir une vue détaillée d'un article :
 
 - Prix de prêt, prix d'achat, nombre de prêts total et catégorie
 - Un graphique d'utilisation par jour, avec sélection de la période (6 mois, 1 an, 2 ans, tout)
-- Un encart récapitulatif si l'article est actuellement prêté (emprunteur, date de début,
-  prêté par, commentaire), avec un bouton `Retourner` pour enregistrer le retour en un clic
+- Un encart récapitulatif si l'article est actuellement prêté (emprunteur, date de début, prêté par, commentaire), avec un bouton `Retourner` pour enregistrer le retour en un clic
 - L'historique complet des prêts de l'article
 - Les enregistrements (notes de maintenance/entretien) associés à l'article
 
-L'édition ou la suppression de l'article est possible en cliquant sur les boutons situés en haut
-à droite de la page.
+L'édition ou la suppression de l'article est possible en cliquant sur les boutons situés en haut à droite de la page.
 
 ### Enregistrer un prêt depuis la fiche article
 Le bouton `Enregistrer un prêt` (grisé si l'article est déjà en cours de prêt ou n'est pas
@@ -103,5 +88,3 @@ disponible) ouvre une fenêtre permettant de choisir :
 ### Ajouter un enregistrement
 Le bouton `Ajouter un enregistrement` permet de noter un événement sur l'article (nettoyage,
 panne, révision...), avec un type, un auteur et une description.
-
-![Formulaire d'un enregistrement](./images/formulaire-enregistrement.png)
