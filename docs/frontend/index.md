@@ -29,6 +29,7 @@ features:
     details: >
       - Permissions granulaires <br/>
       - Suivi des certificats médicaux <br/>
+      - Contrôles périodiques personnalisés <br/>
       - Historique des activités
   - title: Gestion des Présences
     details: >
