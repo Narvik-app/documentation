@@ -132,6 +132,10 @@ export default defineConfig({
               text: 'Administration',
               link: '/frontend/docs/membres/administration'
             },
+            {
+              text: 'Contrôles des membres',
+              link: '/frontend/docs/membres/controles'
+            },
           ]
         },
         {

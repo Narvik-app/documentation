@@ -12,7 +12,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 - Présences externes (section orange)
 - Présences des membres du club
-  - Affichage en rouge si la dernière activité contrôlée date de plus de 12 mois.
+  - Affichage des [contrôles configurés par le club](./controles) marqués comme visibles, avec une couleur (orange/rouge) selon les délais d'avertissement et d'alerte définis.
   - Affichage en jaune lorsque le certificat médical arrive à expiration (2 mois avant l'expiration).
   - Affichage en rouge lorsque le certificat médical est expiré.
 
