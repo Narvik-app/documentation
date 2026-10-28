@@ -29,14 +29,24 @@ jobs:
     env:
       VERSION: ${{ inputs.version }}
     steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.FROOZEIFY_APP_CLIENT_ID }}
+          private-key: ${{ secrets.FROOZEIFY_APP_PRIVATE_KEY }}
+
+      # Uses the app token: drafts are only visible with write access
       - name: Validate version
         run: |
           if ! [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$ ]]; then
             echo "::error::'$VERSION' is not a valid version (expected MAJOR.MINOR.PATCH[-prerelease])."
             exit 1
           fi
-          if gh release view "$VERSION" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
-            echo "::error::A release '$VERSION' already exists (maybe as a draft)."
+          existing=$(gh api --paginate "repos/$GITHUB_REPOSITORY/releases" \
+            --jq '[.[] | select(.tag_name == env.VERSION) | if .draft then "draft" else "published" end] | join(", ")')
+          if [[ -n "$existing" ]]; then
+            echo "::error::A release '$VERSION' already exists ($existing). Delete it first to prepare it again."
             exit 1
           fi
           if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$VERSION" > /dev/null 2>&1; then
@@ -44,14 +54,7 @@ jobs:
             exit 1
           fi
         env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Generate GitHub App token
-        id: app-token
-        uses: actions/create-github-app-token@v3
-        with:
-          client-id: ${{ vars.FROOZEIFY_APP_CLIENT_ID }}
-          private-key: ${{ secrets.FROOZEIFY_APP_PRIVATE_KEY }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: Checkout
         uses: actions/checkout@v7
