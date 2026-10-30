@@ -76,6 +76,12 @@ features:
       - Historique et statistiques d'utilisation <br/>
       - Prêt/retour rapide depuis le point de vente <br/>
       - Impression
+  - title: Temps & Kilomètres
+    icon: 🚗
+    details: >
+      - Déclaration des heures et kilomètres des bénévoles <br/>
+      - Barème kilométrique officiel <br/>
+      - Exports par période, attestations PDF et archive ZIP
   - title: Statistiques association
     icon: 📊
     details: >

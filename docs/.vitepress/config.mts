@@ -177,6 +177,20 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Temps & kilomètres',
+          collapsed: true,
+          items: [
+            {
+              text: 'Déclarations',
+              link: '/frontend/docs/temps-kilometres/declarations'
+            },
+            {
+              text: 'Configuration',
+              link: '/frontend/docs/temps-kilometres/administration'
+            },
+          ]
+        },
+        {
           text: 'Développement',
           collapsed: true,
           items: [

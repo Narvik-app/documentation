@@ -51,6 +51,11 @@ features:
       - Suivi du matériel prêté <br/>
       - Historique et statistiques d'utilisation <br/>
       - Prêt/retour rapide depuis le point de vente
+  - title: Temps & Kilomètres
+    details: >
+      - Déclaration des heures et kilomètres des bénévoles <br/>
+      - Barème kilométrique officiel et taux horaire SMIC <br/>
+      - Exports par période, attestations PDF et archive ZIP
   - title: Statistiques & Exports
     details: >
       - Tableaux de bord dynamiques <br/>
