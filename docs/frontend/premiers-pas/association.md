@@ -25,7 +25,7 @@ Afin d'obtenir des statistiques plus détaillées, il vous est possible d'exclur
 
 Cela vous permettra d'obtenir le décompte de votre nombre de jours ouvert au public.
 
-![](./images/config-globale.png)
+![](./images/config-globale.webp)
 
 [Plus d'information sur la connexion en mode badgeuse/pointeuse](/frontend/docs/membres/presences.html#connexion-en-mode-badgeuse-pointeuse)
 

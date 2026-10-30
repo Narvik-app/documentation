@@ -7,7 +7,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 </script>
 
 # Gestion des activités <RoleLevelComponent level="admin" />
-![](./images/liste.png)
+![](./images/liste.webp)
 
 Actions possibles :
 - Changement du nom

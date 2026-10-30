@@ -62,7 +62,7 @@ ou retiré ne pourra pas être sélectionné pour un nouveau prêt, que ce soit 
 :::
 
 ## Fiche article <RoleLevelComponent level="admin" />
-![Détail d'un article de prêt](./images/detail-article.png)
+![Détail d'un article de prêt](./images/detail-article.webp)
 
 Cette page permet d'avoir une vue détaillée d'un article :
 
@@ -78,7 +78,7 @@ L'édition ou la suppression de l'article est possible en cliquant sur les bouto
 Le bouton `Enregistrer un prêt` (grisé si l'article est déjà en cours de prêt ou n'est pas
 disponible) ouvre une fenêtre permettant de choisir :
 
-![Formulaire d'enregistrement d'un prêt](./images/formulaire-pret.png)
+![Formulaire d'enregistrement d'un prêt](./images/formulaire-pret.webp)
 
 - L'emprunteur : soit un **membre du club** (recherche par nom/licence), soit une **personne
   extérieure** (nom libre)

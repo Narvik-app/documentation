@@ -17,7 +17,7 @@ La recherche est appliquée sur :
 - Nom
 - Prénom
 
-![Liste membres](./images/liste.png)
+![Liste membres](./images/liste.webp)
 
 En cliquant sur une ligne, la fiche détaillée est retournée.
 
@@ -28,7 +28,7 @@ Une fois la fiche membre créée, il est possible d'ajouter celui-ci à une sais
 ![Création membre](./images/creation.png)
 
 ## Informations détaillées <RoleLevelComponent level="supervisor" />
-![Informations détaillées membre](./images/details.jpg)
+![Informations détaillées membre](./images/details.webp)
 
 Actions possibles :
 

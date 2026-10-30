@@ -15,14 +15,14 @@ Le raccourci clavier pour la plupart des navigateurs est : `Ctrl` + `P`
 
 Une liste sur 2 colonnes sera générée.
 
-![](./images/vente-impression.png)
+![](./images/vente-impression.webp)
 
 ## Faire une vente <RoleLevelComponent level="supervisor" />
 1. [Sélection d'un vendeur](#sélection-dun-vendeur)
 2. [Ajout d'un article au panier](#article-présent-dans-la-liste) ou [Ajout d'un article personnalisé au panier](#article-non-existant--prix-personnalisé)
 3. [Finalisation de la vente](#finalisation-de-la-vente)
 
-![](./images/vente-liste-1.png)
+![](./images/vente-liste-1.webp)
 
 ::: danger Attention
 Afin de pouvoir effectuer une vente un vendeur doit être sélectionné.
@@ -36,7 +36,7 @@ Pour ajouter le produit au panier, il suffit de cliquer sur l'icône de caddie b
 
 Celui-ci sera ajouté dans la colonne de droite, le total à payer sera recalculé automatiquement.
 
-![](./images/vente-liste-2.png)
+![](./images/vente-liste-2.webp)
 
 En cas de besoin, il est possible d'augmenter ou de diminuer la quantité ajoutée au panier en cliquant sur les flèches bleues.
 
@@ -61,11 +61,11 @@ Une fois cliqué dessus, une fenêtre s'ouvre avec à remplir dedans le nom de l
 
 Le prix peut être négatif dans le cas d'une réduction par exemple.
 
-![](./images/vente-liste-5.png)
+![](./images/vente-liste-5.webp)
 
 Une fois ajouté au panier celui-ci sera donc visible dans la colonne de droite avec le nom spécifié.
 
-![](./images/vente-liste-6.png)
+![](./images/vente-liste-6.webp)
 
 ### Finalisation de la vente
 Pour que la vente puisse être finalisée, il faut que le mode de paiement soit sélectionné (case en bleu foncé pour le mode sélectionné).
@@ -73,16 +73,16 @@ Pour que la vente puisse être finalisée, il faut que le mode de paiement soit 
 Il est possible d'entrer un commentaire à propos de la vente.  
 Cela peut être utile, par exemple, pour les licences afin de savoir quelle personne a renouvelé et payé.
 
-![](./images/vente-liste-7.png)
+![](./images/vente-liste-7.webp)
 
 ## Modification / Suppression d'une vente <RoleLevelComponent level="supervisor" />
 Une fois la vente validée, le vendeur est redirigé sur le récapitulatif.
 
-![](./images/vente-detail-1.png)
+![](./images/vente-detail-1.webp)
 
 Il est possible de modifier le commentaire de celle-ci.
 
-![](./images/vente-detail-2.png)
+![](./images/vente-detail-2.webp)
 ::: info <RoleLevelComponent level="admin" />
 La modification de date n'est possible que pour les administrateurs.
 :::

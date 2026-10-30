@@ -29,7 +29,7 @@ Cliquer n'importe où sur une carte redirige vers la [fiche détaillée](/fronte
 ### Prêter un article
 Le bouton `Prêter` ouvre une fenêtre permettant de choisir l'emprunteur (membre du club ou personne extérieure), la personne qui prête le matériel, ainsi qu'un commentaire optionnel.
 
-![Formulaire d'enregistrement d'un prêt](./images/formulaire-pret.png)
+![Formulaire d'enregistrement d'un prêt](./images/formulaire-pret.webp)
 
 ### Retourner un article
 Lorsqu'un article est prêté, le bouton `Prêter` est remplacé par `Retourner`, qui enregistre immédiatement la date de retour, sans quitter la page.
@@ -43,7 +43,7 @@ Le raccourci clavier pour la plupart des navigateurs est : `Ctrl` + `P`
 Lors d'une [vente](/frontend/docs/pos/ventes), si des articles de prêt sont configurés comme
 "Visible sur la page de vente", un encart `Matériel en prêt` apparaît en bas de page. Il permet de prêter ou retourner un article rapidement, sans quitter la vente en cours.
 
-![Encart Matériel en prêt sur la page de vente](./images/pret-point-de-vente.png)
+![Encart Matériel en prêt sur la page de vente](./images/pret-point-de-vente.webp)
 
 ## Statistiques <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/statistics/loans
