@@ -17,7 +17,7 @@ La recherche est appliquée sur :
 - Nom
 - Prénom
 
-![Liste membres](./images/liste.webp)
+![Liste membres](./images/list.webp)
 
 En cliquant sur une ligne, la fiche détaillée est retournée.
 

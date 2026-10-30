@@ -32,7 +32,7 @@ Pour ajouter cette connexion rapide, il faut :
 4. Se déconnecter
 5. Et voilà, en cliquant maintenant dans le nouveau favori, la connexion sera automatiquement faite sur le compte `badger`
 
-![](./images/badgeuse.webp)
+![](./images/badger.webp)
 
 ::: danger Attention
 L'action `Générer un nouveau lien` invalidera le lien précédemment généré.

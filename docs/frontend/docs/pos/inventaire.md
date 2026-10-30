@@ -31,7 +31,7 @@ Le changement d'ordre d'une catégorie s'effectue en cliquant sur les fléches b
 ### Listing
 > URL : https://narvik.app/admin/inventories
 
-![](./images/inventaire.webp)
+![](./images/inventory.webp)
 
 Le tableau affiche tous les articles correspondants aux filtres appliqués (recherche et/ou catégories spécifiées).
 
@@ -40,7 +40,7 @@ Lors de la sélection d'un article sur le côté droite de la page apparait un r
 Lorsque le stock du produit atteint le seuil d'alerte défini celui-ci est affiché en rouge dans la liste.
 
 ## Fiche produit
-![](./images/detail-article.webp)
+![](./images/item-detail.webp)
 
 Cette page permet d'avoir une vue détaillée pour un produit.
 

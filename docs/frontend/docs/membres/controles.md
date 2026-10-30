@@ -14,7 +14,7 @@ chacun avec son icône, son mode de mise à jour (automatique ou manuel) et ses 
 ## Configuration des types de contrôle <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/config/member-controls
 
-![Liste des contrôles de membres](./images/liste-controles.webp)
+![Liste des contrôles de membres](./images/controls-list.webp)
 
 ::: info
 Cette page est accessible aux administrateurs, ainsi qu'aux superviseurs disposant de la
@@ -42,7 +42,7 @@ L'ordre d'affichage des contrôles se change en cliquant sur les flèches situé
 
 ## Suivi sur la fiche membre <RoleLevelComponent level="supervisor" />
 
-![Contrôles sur la fiche membre](./images/fiche-membre-controles.webp)
+![Contrôles sur la fiche membre](./images/member-controls.webp)
 
 Sur la [fiche détaillée d'un membre](/frontend/docs/membres/administration#informations-détaillées),
 chaque contrôle configuré apparaît avec sa dernière date et, pour un superviseur :

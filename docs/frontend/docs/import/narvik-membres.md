@@ -17,4 +17,4 @@ L'import se fait depuis un CSV généré depuis le site.
 
 L'export en csv est possible depuis la liste des membres.
 
-![](images/import-donnees/narvik-export-membres-1.png)
+![](images/import-donnees/narvik-export-members-1.png)

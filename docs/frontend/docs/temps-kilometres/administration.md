@@ -24,7 +24,7 @@ Le module est activé par club. S'il n'apparaît pas dans votre menu, prenez [co
 ## Taux horaire du SMIC <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/time-and-travel/exports
 
-![Encart Taux horaire SMIC (€) en haut de la page Exports](./images/taux-horaire-smic.webp)
+![Encart Taux horaire SMIC (€) en haut de la page Exports](./images/smic-hourly-rate.webp)
 
 Ce taux sert à valoriser le temps déclaré par les bénévoles dans les attestations. Il est
 enregistré en cliquant sur le bouton `Enregistrer`, et reste modifiable à tout moment.
@@ -88,7 +88,7 @@ Liste des véhicules déclarés par les membres. Voir [Mes véhicules](./declara
 ## Exports <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/time-and-travel/exports
 
-![Liste des exports](./images/liste-exports.webp)
+![Liste des exports](./images/exports-list.webp)
 
 Un export regroupe toutes les déclarations d'une période et génère :
 
@@ -105,7 +105,7 @@ permission `Export`.
 Le bouton `Nouvel export` ouvre une fenêtre dans laquelle il suffit de choisir la **période**,
 puis de cliquer sur `Générer`.
 
-![Fenêtre Nouvel export avec le sélecteur de période](./images/nouvel-export.webp)
+![Fenêtre Nouvel export avec le sélecteur de période](./images/new-export.webp)
 
 ::: warning Chevauchement
 Deux exports ne peuvent pas se chevaucher : une période déjà couverte par un autre export est refusée.
@@ -117,7 +117,7 @@ est affiché ; en cas de problème, il est remplacé par `Échec de la générat
 ### Fiche d'un export
 Un clic sur `Détail` affiche la fiche de l'export.
 
-![Fiche d'un export en brouillon](./images/detail-export.webp)
+![Fiche d'un export en brouillon](./images/export-detail.webp)
 
 - La période, le nombre de déclarations et de membres, le total des kilomètres et le montant
 - Le bouton `Récapitulatif (PDF)`
@@ -141,7 +141,7 @@ Lorsqu'une déclaration d'un export en brouillon est modifiée, ses documents so
 Le bouton `Verrouiller définitivement` fige l'export : les documents sont générés une dernière
 fois, l'archive ZIP est créée, et **les déclarations de la période ne peuvent plus être modifiées ni supprimées**.
 
-![Fenêtre de confirmation du verrouillage](./images/verrouillage-export.webp)
+![Fenêtre de confirmation du verrouillage](./images/export-lock.webp)
 
 ### Déverrouiller / supprimer un export
 Un export verrouillé peut être déverrouillé (bouton `Déverrouiller`) ou supprimé par un
