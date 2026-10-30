@@ -22,6 +22,7 @@ Le module est activé par club. S'il n'apparaît pas dans votre menu, prenez [co
 :::
 
 ## Taux horaire du SMIC <RoleLevelComponent level="admin" />
+
 > URL : https://narvik.app/admin/time-and-travel/exports
 
 ![Encart Taux horaire SMIC (€) en haut de la page Exports](./images/generated/smic-hourly-rate.webp)
@@ -35,6 +36,7 @@ Utilisez le bouton [`Régénérer`](#regenerer-un-export) pour appliquer le nouv
 :::
 
 ## Déclaration lors de la présence <RoleLevelComponent level="admin" />
+
 > URL : https://narvik.app/admin/config/activities
 
 ![Formulaire d'une activité avec l'interrupteur Déclaration de temps & kilomètres](./images/generated/activity-declaration.webp)
@@ -51,12 +53,12 @@ Pratique pour les activités comme `Travaux`, `Bureau` ou `Permanence`.
 Les administrateurs ont accès à l'ensemble du module. Pour les superviseurs, les permissions
 du bloc `Temps & kilomètres` peuvent être attribuées depuis l'onglet `Permissions` de la fiche du membre :
 
-| Permission | Permet de |
-|---|---|
-| Déclarations & véhicules - Accès | Consulter les déclarations et véhicules de tous les membres |
+| Permission                         | Permet de                                                                         |
+|------------------------------------|-----------------------------------------------------------------------------------|
+| Déclarations & véhicules - Accès   | Consulter les déclarations et véhicules de tous les membres                       |
 | Déclarations & véhicules - Édition | Créer, modifier ou supprimer les déclarations et véhicules à la place d'un membre |
-| Export comptable | Générer, régénérer et verrouiller un export |
-| Déverrouillage | Déverrouiller ou supprimer un export verrouillé |
+| Export comptable                   | Générer, régénérer et verrouiller un export                                       |
+| Déverrouillage                     | Déverrouiller ou supprimer un export verrouillé                                   |
 
 ::: info
 Chaque permission inclut celles qui la précèdent : `Déverrouillage` donne aussi `Export comptable` et l'accès aux déclarations, `Export comptable` donne aussi l'accès aux déclarations.
@@ -65,13 +67,13 @@ Chaque permission inclut celles qui la précèdent : `Déverrouillage` donne aus
 ![Onglet Permissions d'un superviseur, bloc Temps & kilomètres](./images/generated/permissions.webp)
 
 ## Déclarations <RoleLevelComponent level="supervisor" />
+
 > URL : https://narvik.app/admin/time-and-travel
 
 ![Liste des déclarations de tous les membres](./images/generated/admin-declarations.webp)
 
 Cette page regroupe les déclarations de tous les membres du club, avec pour chacune la date, le
-membre, le trajet, les kilomètres, les heures, le véhicule, le montant et le statut
-(modifiable ou verrouillé).
+membre, le trajet, les kilomètres, les heures, le véhicule, le montant et le statut (modifiable ou verrouillé).
 
 Le bouton `+` permet de créer une déclaration pour un membre : il faut d'abord choisir le membre,
 puis remplir le [formulaire](./declarations#declarer-du-temps-et-des-kilometres).
@@ -79,6 +81,7 @@ puis remplir le [formulaire](./declarations#declarer-du-temps-et-des-kilometres)
 Les déclarations d'un membre sont aussi visibles depuis l'onglet `Déclarations` de sa fiche (uniquement pour les superviseurs et administrateurs).
 
 ## Véhicules <RoleLevelComponent level="supervisor" />
+
 > URL : https://narvik.app/admin/time-and-travel/vehicles
 
 ![Liste des véhicules de tous les membres](./images/generated/admin-vehicles.webp)
@@ -86,6 +89,7 @@ Les déclarations d'un membre sont aussi visibles depuis l'onglet `Déclarations
 Liste des véhicules déclarés par les membres. Voir [Mes véhicules](./declarations#mes-vehicules) pour le détail des champs.
 
 ## Exports <RoleLevelComponent level="admin" />
+
 > URL : https://narvik.app/admin/time-and-travel/exports
 
 ![Liste des exports](./images/generated/exports-list.webp)
@@ -102,6 +106,7 @@ permission `Export`.
 :::
 
 ### Générer un export
+
 Le bouton `Nouvel export` ouvre une fenêtre dans laquelle il suffit de choisir la **période**,
 puis de cliquer sur `Générer`.
 
@@ -115,6 +120,7 @@ La génération est réalisée en arrière-plan. Tant qu'elle est en cours, le b
 est affiché ; en cas de problème, il est remplacé par `Échec de la génération` et il suffit de régénérer l'export.
 
 ### Fiche d'un export
+
 Un clic sur `Détail` affiche la fiche de l'export.
 
 ![Fiche d'un export en brouillon](./images/generated/export-detail.webp)
@@ -130,6 +136,7 @@ Un export a deux statuts :
 - **Verrouillé** : l'export est figé
 
 ### Régénérer un export
+
 Tant que l'export est en brouillon, le bouton `Régénérer` recalcule les documents avec les
 déclarations et le taux horaire actuels.
 
@@ -138,12 +145,14 @@ Lorsqu'une déclaration d'un export en brouillon est modifiée, ses documents so
 :::
 
 ### Verrouiller un export
+
 Le bouton `Verrouiller définitivement` fige l'export : les documents sont générés une dernière
 fois, l'archive ZIP est créée, et **les déclarations de la période ne peuvent plus être modifiées ni supprimées**.
 
 ![Fenêtre de confirmation du verrouillage](./images/generated/export-lock.webp)
 
 ### Déverrouiller / supprimer un export
+
 Un export verrouillé peut être déverrouillé (bouton `Déverrouiller`) ou supprimé par un
 administrateur, ou par un superviseur disposant de la permission `Déverrouillage`.
 Les déclarations redeviennent alors modifiables.
