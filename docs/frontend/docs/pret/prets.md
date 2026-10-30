@@ -11,7 +11,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 ## Page Prêts <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/loans
 
-![Liste des articles de prêt](./images/liste-prets.png)
+![Liste des articles de prêt](./images/liste-prets.webp)
 
 Cette page regroupe tous les articles disponibles au prêt (statut **Disponible**), classés par catégorie puis par ordre alphabétique.
 
@@ -48,7 +48,7 @@ Lors d'une [vente](/frontend/docs/pos/ventes), si des articles de prêt sont con
 ## Statistiques <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/statistics/loans
 
-![Statistiques des prêts](./images/statistiques.png)
+![Statistiques des prêts](./images/statistiques.webp)
 
 La page de statistiques permet de suivre l'activité de prêt sur une période donnée (personnalisée ou par saison), avec une comparaison automatique par rapport à la période précédente :
 

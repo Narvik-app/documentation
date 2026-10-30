@@ -32,7 +32,7 @@ droite dans le tableau. Cet ordre est utilisé pour le regroupement des articles
 ## Types d'enregistrement <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/loans/recording-types
 
-![Liste des types d'enregistrement](./images/types-enregistrement.png)
+![Liste des types d'enregistrement](./images/types-enregistrement.webp)
 
 Un type d'enregistrement permet de catégoriser une note ajoutée sur un article (nettoyage,
 révision, panne, contrôle...). Chaque type dispose d'un nom et d'une couleur, utilisée pour

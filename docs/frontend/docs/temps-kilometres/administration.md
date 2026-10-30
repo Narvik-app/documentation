@@ -24,7 +24,7 @@ Le module est activé par club. S'il n'apparaît pas dans votre menu, prenez [co
 ## Taux horaire du SMIC <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/time-and-travel/exports
 
-> 📷 TODO capture : encart `Taux horaire SMIC (€)` en haut de la page Exports (`images/taux-horaire-smic.png`)
+![Encart Taux horaire SMIC (€) en haut de la page Exports](./images/taux-horaire-smic.webp)
 
 Ce taux sert à valoriser le temps déclaré par les bénévoles dans les attestations. Il est
 enregistré en cliquant sur le bouton `Enregistrer`, et reste modifiable à tout moment.
@@ -67,7 +67,7 @@ Chaque permission inclut celles qui la précèdent : `Déverrouillage` donne aus
 ## Déclarations <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/time-and-travel
 
-> 📷 TODO capture : liste des déclarations de tous les membres (`images/admin-declarations.png`)
+![Liste des déclarations de tous les membres](./images/admin-declarations.webp)
 
 Cette page regroupe les déclarations de tous les membres du club, avec pour chacune la date, le
 membre, le trajet, les kilomètres, les heures, le véhicule, le montant et le statut
@@ -81,14 +81,14 @@ Les déclarations d'un membre sont aussi visibles depuis l'onglet `Déclarations
 ## Véhicules <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/time-and-travel/vehicles
 
-> 📷 TODO capture : liste des véhicules de tous les membres (`images/admin-vehicles.png`)
+![Liste des véhicules de tous les membres](./images/admin-vehicles.webp)
 
 Liste des véhicules déclarés par les membres. Voir [Mes véhicules](./declarations#mes-vehicules) pour le détail des champs.
 
 ## Exports <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/time-and-travel/exports
 
-> 📷 TODO capture : liste des exports (`images/liste-exports.png`)
+![Liste des exports](./images/liste-exports.webp)
 
 Un export regroupe toutes les déclarations d'une période et génère :
 
@@ -105,7 +105,7 @@ permission `Export`.
 Le bouton `Nouvel export` ouvre une fenêtre dans laquelle il suffit de choisir la **période**,
 puis de cliquer sur `Générer`.
 
-> 📷 TODO capture : fenêtre `Nouvel export` avec le sélecteur de période (`images/nouvel-export.png`)
+![Fenêtre Nouvel export avec le sélecteur de période](./images/nouvel-export.webp)
 
 ::: warning Chevauchement
 Deux exports ne peuvent pas se chevaucher : une période déjà couverte par un autre export est refusée.
@@ -117,7 +117,7 @@ est affiché ; en cas de problème, il est remplacé par `Échec de la générat
 ### Fiche d'un export
 Un clic sur `Détail` affiche la fiche de l'export.
 
-> 📷 TODO capture : fiche d'un export en brouillon (`images/detail-export.png`)
+![Fiche d'un export en brouillon](./images/detail-export.webp)
 
 - La période, le nombre de déclarations et de membres, le total des kilomètres et le montant
 - Le bouton `Récapitulatif (PDF)`
@@ -141,7 +141,7 @@ Lorsqu'une déclaration d'un export en brouillon est modifiée, ses documents so
 Le bouton `Verrouiller définitivement` fige l'export : les documents sont générés une dernière
 fois, l'archive ZIP est créée, et **les déclarations de la période ne peuvent plus être modifiées ni supprimées**.
 
-> 📷 TODO capture : fenêtre de confirmation du verrouillage (`images/verrouillage-export.png`)
+![Fenêtre de confirmation du verrouillage](./images/verrouillage-export.webp)
 
 ### Déverrouiller / supprimer un export
 Un export verrouillé peut être déverrouillé (bouton `Déverrouiller`) ou supprimé par un

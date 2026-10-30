@@ -21,7 +21,7 @@ Cette page n'est disponible que si le module est activé pour votre club. Voir l
 ## Mes déclarations <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/time-and-travel
 
-> 📷 TODO capture : page `Mes déclarations` avec le tableau et le bouton d'ajout (`images/mes-declarations.png`)
+![Page Mes déclarations avec le tableau et le bouton d'ajout](./images/mes-declarations.webp)
 
 Le tableau liste les déclarations du bénévole : date, motif, trajet, kilomètres, heures,
 véhicule, montant et statut. Les déclarations incluses dans un export verrouillé ne sont plus modifiables.
@@ -29,13 +29,13 @@ véhicule, montant et statut. Les déclarations incluses dans un export verrouil
 Sous le tableau, la section `Attestations` permet de télécharger les attestations PDF générées
 par le club pour chaque période exportée.
 
-> 📷 TODO capture : section `Attestations` (`images/attestations.png`)
+![Section Attestations](./images/attestations.webp)
 
 ### Déclarer du temps et des kilomètres
 Une déclaration peut être créée depuis le bouton d'ajout, ou apparaît automatiquement après
 l'enregistrement d'une présence sur une [activité configurée](./administration#declaration-lors-de-la-presence).
 
-> 📷 TODO capture : formulaire de déclaration (`images/formulaire-declaration.png`)
+![Formulaire de déclaration](./images/formulaire-declaration.webp)
 
 Le formulaire dispose des champs suivants :
 
@@ -65,7 +65,7 @@ Le **montant** est calculé automatiquement :
 ## Mes véhicules <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/time-and-travel/vehicles
 
-> 📷 TODO capture : page `Mes véhicules` (`images/mes-vehicules.png`)
+![Page Mes véhicules](./images/mes-vehicules.webp)
 
 Avant de déclarer des kilomètres, le bénévole doit enregistrer au moins un véhicule. Un véhicule dispose des champs suivants :
 
@@ -76,7 +76,7 @@ Avant de déclarer des kilomètres, le bénévole doit enregistrer au moins un v
 - **Puissance fiscale** (CV)
 - **Actif** : un véhicule désactivé n'est plus proposé lors d'une nouvelle déclaration
 
-> 📷 TODO capture : formulaire d'ajout d'un véhicule (`images/formulaire-vehicule.png`)
+![Formulaire d'ajout d'un véhicule](./images/formulaire-vehicule.webp)
 
 ::: info Administration
 Les administrateurs retrouvent les déclarations et véhicules de tous les membres dans la partie
