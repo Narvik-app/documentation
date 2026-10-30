@@ -2,10 +2,6 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../components/RoleLevelComponent.vue'
-</script>
-
 # Démarrage rapide association <RoleLevelComponent level="admin" />
 
 La mise en route une fois l'association créée est assez rapide.
@@ -25,7 +21,7 @@ Afin d'obtenir des statistiques plus détaillées, il vous est possible d'exclur
 
 Cela vous permettra d'obtenir le décompte de votre nombre de jours ouvert au public.
 
-![](./images/config-globale.png)
+![](./images/generated/global-config.webp)
 
 [Plus d'information sur la connexion en mode badgeuse/pointeuse](/frontend/docs/membres/presences.html#connexion-en-mode-badgeuse-pointeuse)
 

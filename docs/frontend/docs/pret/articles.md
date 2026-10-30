@@ -2,11 +2,7 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Gestion des articles de prêt <RoleLevelComponent level="admin" />
+# Gestion des articles de prêt <BundleComponent bundle="loans" /> <RoleLevelComponent level="admin" />
 
 Le module de Prêt permet de gérer un ensemble de matériel prêté ainsi que son historique complet (entretiens et utilisations).
 
@@ -32,7 +28,7 @@ droite dans le tableau. Cet ordre est utilisé pour le regroupement des articles
 ## Types d'enregistrement <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/loans/recording-types
 
-![Liste des types d'enregistrement](./images/types-enregistrement.png)
+![Liste des types d'enregistrement](./images/generated/recording-types.webp)
 
 Un type d'enregistrement permet de catégoriser une note ajoutée sur un article (nettoyage,
 révision, panne, contrôle...). Chaque type dispose d'un nom et d'une couleur, utilisée pour
@@ -62,7 +58,7 @@ ou retiré ne pourra pas être sélectionné pour un nouveau prêt, que ce soit 
 :::
 
 ## Fiche article <RoleLevelComponent level="admin" />
-![Détail d'un article de prêt](./images/detail-article.png)
+![Détail d'un article de prêt](./images/generated/item-detail.webp)
 
 Cette page permet d'avoir une vue détaillée d'un article :
 
@@ -78,7 +74,7 @@ L'édition ou la suppression de l'article est possible en cliquant sur les bouto
 Le bouton `Enregistrer un prêt` (grisé si l'article est déjà en cours de prêt ou n'est pas
 disponible) ouvre une fenêtre permettant de choisir :
 
-![Formulaire d'enregistrement d'un prêt](./images/formulaire-pret.png)
+![Formulaire d'enregistrement d'un prêt](./images/generated/loan-form.webp)
 
 - L'emprunteur : soit un **membre du club** (recherche par nom/licence), soit une **personne
   extérieure** (nom libre)

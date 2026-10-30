@@ -2,11 +2,7 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Import des présences <RoleLevelComponent level="admin" />
+# Import des présences <BundleComponent bundle="presences" /> <RoleLevelComponent level="admin" />
 
 L'import se fait depuis un CSV généré depuis le site.
 

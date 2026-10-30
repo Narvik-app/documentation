@@ -2,11 +2,7 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Import / Export - Point de vente <RoleLevelComponent level="admin" />
+# Import / Export - Point de vente <BundleComponent bundle="sales" /> <RoleLevelComponent level="admin" />
 
 L'import se fait depuis un CSV généré depuis le site itac
 
