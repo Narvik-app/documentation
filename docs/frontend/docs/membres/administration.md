@@ -21,7 +21,7 @@ Le bouton `+` permet la création d'une nouvelle fiche membre.
 
 Une fois la fiche membre créée, il est possible d'ajouter celui-ci à une saison.
 
-![Création membre](./images/creation.png)
+![Création membre](./images/generated/creation.webp)
 
 ## Informations détaillées <RoleLevelComponent level="supervisor" />
 ![Informations détaillées membre](./images/generated/details.webp)
