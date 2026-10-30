@@ -11,7 +11,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 ## Page Prêts <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/loans
 
-![Liste des articles de prêt](./images/loans-list.webp)
+![Liste des articles de prêt](./images/generated/loans-list.webp)
 
 Cette page regroupe tous les articles disponibles au prêt (statut **Disponible**), classés par catégorie puis par ordre alphabétique.
 
@@ -29,7 +29,7 @@ Cliquer n'importe où sur une carte redirige vers la [fiche détaillée](/fronte
 ### Prêter un article
 Le bouton `Prêter` ouvre une fenêtre permettant de choisir l'emprunteur (membre du club ou personne extérieure), la personne qui prête le matériel, ainsi qu'un commentaire optionnel.
 
-![Formulaire d'enregistrement d'un prêt](./images/loan-form.webp)
+![Formulaire d'enregistrement d'un prêt](./images/generated/loan-form.webp)
 
 ### Retourner un article
 Lorsqu'un article est prêté, le bouton `Prêter` est remplacé par `Retourner`, qui enregistre immédiatement la date de retour, sans quitter la page.
@@ -43,12 +43,12 @@ Le raccourci clavier pour la plupart des navigateurs est : `Ctrl` + `P`
 Lors d'une [vente](/frontend/docs/pos/ventes), si des articles de prêt sont configurés comme
 "Visible sur la page de vente", un encart `Matériel en prêt` apparaît en bas de page. Il permet de prêter ou retourner un article rapidement, sans quitter la vente en cours.
 
-![Encart Matériel en prêt sur la page de vente](./images/loan-in-pos.webp)
+![Encart Matériel en prêt sur la page de vente](./images/generated/loan-in-pos.webp)
 
 ## Statistiques <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/statistics/loans
 
-![Statistiques des prêts](./images/statistics.webp)
+![Statistiques des prêts](./images/generated/statistics.webp)
 
 La page de statistiques permet de suivre l'activité de prêt sur une période donnée (personnalisée ou par saison), avec une comparaison automatique par rapport à la période précédente :
 

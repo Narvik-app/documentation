@@ -18,7 +18,7 @@ La configuration de l'inventaire est faite sur 2 pages
 ## Catégories <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/inventories/categories
 
-![](./images/categories.webp)
+![](./images/generated/categories.webp)
 
 ::: warning Suppression
 La suppression d'une catégorie n'est possible que si et seulement si celle-ci ne dispose d'aucun article.
@@ -31,7 +31,7 @@ Le changement d'ordre d'une catégorie s'effectue en cliquant sur les fléches b
 ### Listing
 > URL : https://narvik.app/admin/inventories
 
-![](./images/inventory.webp)
+![](./images/generated/inventory.webp)
 
 Les articles sont regroupés par catégorie, chaque catégorie pouvant être dépliée ou repliée en cliquant sur son nom (le nombre d'articles et le nombre d'alertes de stock y sont affichés).
 
@@ -51,7 +51,7 @@ Lors de la sélection d'un article apparaît, sur le côté droit de la page, so
 Le bouton `Détails` situé sur la ligne de l'article redirige directement sur la [fiche complète](#fiche-produit).
 
 ## Fiche produit
-![](./images/item-detail.webp)
+![](./images/generated/item-detail.webp)
 
 Cette page permet d'avoir une vue détaillée pour un produit.
 

@@ -32,7 +32,7 @@ droite dans le tableau. Cet ordre est utilisé pour le regroupement des articles
 ## Types d'enregistrement <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/loans/recording-types
 
-![Liste des types d'enregistrement](./images/recording-types.webp)
+![Liste des types d'enregistrement](./images/generated/recording-types.webp)
 
 Un type d'enregistrement permet de catégoriser une note ajoutée sur un article (nettoyage,
 révision, panne, contrôle...). Chaque type dispose d'un nom et d'une couleur, utilisée pour
@@ -62,7 +62,7 @@ ou retiré ne pourra pas être sélectionné pour un nouveau prêt, que ce soit 
 :::
 
 ## Fiche article <RoleLevelComponent level="admin" />
-![Détail d'un article de prêt](./images/item-detail.webp)
+![Détail d'un article de prêt](./images/generated/item-detail.webp)
 
 Cette page permet d'avoir une vue détaillée d'un article :
 
@@ -78,7 +78,7 @@ L'édition ou la suppression de l'article est possible en cliquant sur les bouto
 Le bouton `Enregistrer un prêt` (grisé si l'article est déjà en cours de prêt ou n'est pas
 disponible) ouvre une fenêtre permettant de choisir :
 
-![Formulaire d'enregistrement d'un prêt](./images/loan-form.webp)
+![Formulaire d'enregistrement d'un prêt](./images/generated/loan-form.webp)
 
 - L'emprunteur : soit un **membre du club** (recherche par nom/licence), soit une **personne
   extérieure** (nom libre)

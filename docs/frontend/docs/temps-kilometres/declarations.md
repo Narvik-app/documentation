@@ -21,7 +21,7 @@ Cette page n'est disponible que si le module est activé pour votre club. Voir l
 ## Mes déclarations <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/time-and-travel
 
-![Page Mes déclarations avec le tableau et le bouton d'ajout](./images/my-declarations.webp)
+![Page Mes déclarations avec le tableau et le bouton d'ajout](./images/generated/my-declarations.webp)
 
 Le tableau liste les déclarations du bénévole : date, motif, trajet, kilomètres, heures,
 véhicule, montant et statut. Les déclarations incluses dans un export verrouillé ne sont plus modifiables.
@@ -29,13 +29,13 @@ véhicule, montant et statut. Les déclarations incluses dans un export verrouil
 Sous le tableau, la section `Attestations` permet de télécharger les attestations PDF générées
 par le club pour chaque période exportée.
 
-![Section Attestations](./images/attestations.webp)
+![Section Attestations](./images/generated/attestations.webp)
 
 ### Déclarer du temps et des kilomètres
 Une déclaration peut être créée depuis le bouton d'ajout, ou apparaît automatiquement après
 l'enregistrement d'une présence sur une [activité configurée](./administration#declaration-lors-de-la-presence).
 
-![Formulaire de déclaration](./images/declaration-form.webp)
+![Formulaire de déclaration](./images/generated/declaration-form.webp)
 
 Le formulaire dispose des champs suivants :
 
@@ -65,7 +65,7 @@ Le **montant** est calculé automatiquement :
 ## Mes véhicules <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/time-and-travel/vehicles
 
-![Page Mes véhicules](./images/my-vehicles.webp)
+![Page Mes véhicules](./images/generated/my-vehicles.webp)
 
 Avant de déclarer des kilomètres, le bénévole doit enregistrer au moins un véhicule. Un véhicule dispose des champs suivants :
 
@@ -76,7 +76,7 @@ Avant de déclarer des kilomètres, le bénévole doit enregistrer au moins un v
 - **Puissance fiscale** (CV)
 - **Actif** : un véhicule désactivé n'est plus proposé lors d'une nouvelle déclaration
 
-![Formulaire d'ajout d'un véhicule](./images/vehicle-form.webp)
+![Formulaire d'ajout d'un véhicule](./images/generated/vehicle-form.webp)
 
 ::: info Administration
 Les administrateurs retrouvent les déclarations et véhicules de tous les membres dans la partie

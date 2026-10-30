@@ -8,7 +8,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 # Gestion des présences <RoleLevelComponent level="badger" />
 
-![](./images/presences.webp)
+![](./images/generated/presences.webp)
 
 - Présences externes (section orange)
 - Présences des membres du club
@@ -32,7 +32,7 @@ Pour ajouter cette connexion rapide, il faut :
 4. Se déconnecter
 5. Et voilà, en cliquant maintenant dans le nouveau favori, la connexion sera automatiquement faite sur le compte `badger`
 
-![](./images/badger.webp)
+![](./images/generated/badger.webp)
 
 ::: danger Attention
 L'action `Générer un nouveau lien` invalidera le lien précédemment généré.
