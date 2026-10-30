@@ -2,10 +2,6 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../components/RoleLevelComponent.vue'
-</script>
-
 # Démarrage rapide association <RoleLevelComponent level="admin" />
 
 La mise en route une fois l'association créée est assez rapide.

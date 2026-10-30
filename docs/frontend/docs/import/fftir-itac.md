@@ -3,10 +3,6 @@ prev: false
 ---
 
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
 # Import des données <RoleLevelComponent level="admin" />
 
 - [Import des membres](#import-des-membres)

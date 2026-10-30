@@ -3,6 +3,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import BundleComponent from '../../components/BundleComponent.vue'
+import RoleLevelComponent from '../../components/RoleLevelComponent.vue'
 
 export default {
   extends: DefaultTheme,
@@ -12,6 +14,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    // Used in many pages: no import needed there
+    app.component('BundleComponent', BundleComponent)
+    app.component('RoleLevelComponent', RoleLevelComponent)
   }
 } satisfies Theme

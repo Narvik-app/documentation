@@ -2,11 +2,7 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Gestion des présences <RoleLevelComponent level="badger" />
+# Gestion des présences <BundleComponent bundle="presences" /> <RoleLevelComponent level="badger" />
 
 ![](./images/generated/presences.webp)
 

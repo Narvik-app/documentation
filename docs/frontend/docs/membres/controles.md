@@ -2,10 +2,6 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
 # Contrôles des membres <RoleLevelComponent level="admin" />
 
 Le club peut définir ses propres contrôles périodiques par membre (contrôle annuel, QCM, ...),

@@ -2,11 +2,7 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Gestion de l'inventaire <RoleLevelComponent level="admin" />
+# Gestion de l'inventaire <BundleComponent bundle="sales" /> <RoleLevelComponent level="admin" />
 
 La configuration de l'inventaire est faite sur 2 pages
 

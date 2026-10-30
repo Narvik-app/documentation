@@ -2,11 +2,7 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Déclarations de temps & kilomètres <RoleLevelComponent level="supervisor" />
+# Déclarations de temps & kilomètres <BundleComponent bundle="time-and-travel" /> <RoleLevelComponent level="supervisor" />
 
 Chaque bénévole (superviseur ou administrateur) peut déclarer le temps passé et les kilomètres
 parcourus pour le club, afin d'obtenir une attestation en fin de période.
@@ -14,9 +10,11 @@ parcourus pour le club, afin d'obtenir une attestation en fin de période.
 Le bouton `Temps & kilomètres` du menu supérieur donne accès à son espace personnel, composé de
 deux pages : [Mes déclarations](#mes-declarations) et [Mes véhicules](#mes-vehicules).
 
-::: info Module
-Cette page n'est disponible que si le module est activé pour votre club. Voir la [configuration](./administration).
-:::
+<BundleComponent bundle="time-and-travel" alert>
+
+Voir la [configuration](./administration) du module.
+
+</BundleComponent>
 
 ## Mes déclarations <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/time-and-travel

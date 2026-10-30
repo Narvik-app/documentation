@@ -2,11 +2,7 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Prêts <RoleLevelComponent level="supervisor" />
+# Prêts <BundleComponent bundle="loans" /> <RoleLevelComponent level="supervisor" />
 
 ## Page Prêts <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/loans

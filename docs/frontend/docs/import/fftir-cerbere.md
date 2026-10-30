@@ -2,11 +2,7 @@
 next: true
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Import des données Cerbère <RoleLevelComponent level="admin" />
+# Import des données Cerbère <BundleComponent bundle="presences" /> <RoleLevelComponent level="admin" />
 **L'import ne créé aucun utilisateur**.
 
 Il est fortement conseillé de faire un [Import des utilisateurs](fftir-itac) avant.   

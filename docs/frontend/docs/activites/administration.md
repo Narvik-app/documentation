@@ -2,10 +2,6 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
 # Gestion des activités <RoleLevelComponent level="admin" />
 ![](./images/generated/list.webp)
 

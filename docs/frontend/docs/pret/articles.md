@@ -2,11 +2,7 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Gestion des articles de prêt <RoleLevelComponent level="admin" />
+# Gestion des articles de prêt <BundleComponent bundle="loans" /> <RoleLevelComponent level="admin" />
 
 Le module de Prêt permet de gérer un ensemble de matériel prêté ainsi que son historique complet (entretiens et utilisations).
 

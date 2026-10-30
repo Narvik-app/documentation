@@ -2,11 +2,7 @@
 prev: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Configuration Temps & kilomètres <RoleLevelComponent level="admin" />
+# Configuration Temps & kilomètres <BundleComponent bundle="time-and-travel" /> <RoleLevelComponent level="admin" />
 
 Le module Temps & kilomètres permet aux bénévoles de déclarer les heures passées et les kilomètres
 parcourus pour le club, puis de générer des récapitulatifs et des attestations par période.
@@ -17,9 +13,7 @@ La mise en place se fait en 3 étapes
 - Définir le taux horaire du SMIC
 - Choisir les activités qui déclenchent une déclaration
 
-::: info Activation
-Le module est activé par club. S'il n'apparaît pas dans votre menu, prenez [contact](https://about.narvik.app/contact) avec nous.
-:::
+<BundleComponent bundle="time-and-travel" alert />
 
 ## Taux horaire du SMIC <RoleLevelComponent level="admin" />
 

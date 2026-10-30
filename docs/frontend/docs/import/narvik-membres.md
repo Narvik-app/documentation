@@ -2,10 +2,6 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
 # Import des membres <RoleLevelComponent level="admin" />
 
 L'import se fait depuis un CSV généré depuis le site.

@@ -2,11 +2,7 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
-# Ventes <RoleLevelComponent level="supervisor" />
+# Ventes <BundleComponent bundle="sales" /> <RoleLevelComponent level="supervisor" />
 
 ## Imprimer la liste des prix <RoleLevelComponent level="supervisor" />
 Pour imprimer la liste de prix à jour, il suffit de faire "Imprimer la page" depuis votre navigateur.

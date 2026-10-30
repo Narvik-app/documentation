@@ -2,10 +2,6 @@
 next: false
 ---
 
-<script setup>
-import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
-</script>
-
 # Gestion membre <RoleLevelComponent level="supervisor" />
 
 ## Liste <RoleLevelComponent level="supervisor" />
