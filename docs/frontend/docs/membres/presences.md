@@ -27,8 +27,8 @@ Pour ajouter cette connexion rapide, il faut :
 
 1. Se connecter en mode admin depuis l'ordinateur qui servira de pointeuse.
 2. Se rendre dans `Administration > Configuration > Présences`
-3. Glisser et déposer dans la barre d'adresse du navigateur le bouton jaune `Gestion de présence`   
-   Ou cliquer sur le bouton et lien sera copié dans votre presse-papier.
+3. Glisser et déposer dans la barre d'adresse du navigateur le bouton jaune `Gestion des présences`
+   Ou cliquer sur le bouton et le lien sera copié dans votre presse-papier.
 4. Se déconnecter
 5. Et voilà, en cliquant maintenant dans le nouveau favori, la connexion sera automatiquement faite sur le compte `badger`
 
