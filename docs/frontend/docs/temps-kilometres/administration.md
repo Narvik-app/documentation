@@ -37,7 +37,7 @@ Utilisez le bouton [`Régénérer`](#regenerer-un-export) pour appliquer le nouv
 ## Déclaration lors de la présence <RoleLevelComponent level="admin" />
 > URL : https://narvik.app/admin/config/activities
 
-> 📷 TODO capture : formulaire d'une activité avec l'interrupteur `Déclaration de temps & kilomètres` (`images/activite-declaration.png`)
+![Formulaire d'une activité avec l'interrupteur Déclaration de temps & kilomètres](./images/generated/activity-declaration.webp)
 
 Sur chaque [activité](/frontend/docs/activites/administration), l'interrupteur
 `Déclaration de temps & kilomètres` (visible uniquement lorsque le module est activé) affiche le
@@ -48,21 +48,21 @@ Pratique pour les activités comme `Travaux`, `Bureau` ou `Permanence`.
 
 ## Permissions <RoleLevelComponent level="admin" />
 
-Les administrateurs ont accès à l'ensemble du module. Pour les superviseurs, 4 permissions
-peuvent être attribuées depuis l'onglet `Permissions` de la fiche du membre :
+Les administrateurs ont accès à l'ensemble du module. Pour les superviseurs, les permissions
+du bloc `Temps & kilomètres` peuvent être attribuées depuis l'onglet `Permissions` de la fiche du membre :
 
 | Permission | Permet de |
 |---|---|
-| Accès | Consulter les déclarations et véhicules de tous les membres |
-| Édition | Créer, modifier ou supprimer les déclarations et véhicules à la place d'un membre |
-| Export | Générer, régénérer et verrouiller un export (rôle "comptable") |
+| Déclarations & véhicules - Accès | Consulter les déclarations et véhicules de tous les membres |
+| Déclarations & véhicules - Édition | Créer, modifier ou supprimer les déclarations et véhicules à la place d'un membre |
+| Export comptable | Générer, régénérer et verrouiller un export |
 | Déverrouillage | Déverrouiller ou supprimer un export verrouillé |
 
 ::: info
-Chaque permission inclut celles qui la précèdent : `Déverrouillage` donne aussi `Export` et `Accès`, `Export` donne aussi `Accès`.
+Chaque permission inclut celles qui la précèdent : `Déverrouillage` donne aussi `Export comptable` et l'accès aux déclarations, `Export comptable` donne aussi l'accès aux déclarations.
 :::
 
-> 📷 TODO capture : onglet `Permissions` d'un superviseur avec les permissions Temps & kilomètres (`images/permissions.png`)
+![Onglet Permissions d'un superviseur, bloc Temps & kilomètres](./images/generated/permissions.webp)
 
 ## Déclarations <RoleLevelComponent level="supervisor" />
 > URL : https://narvik.app/admin/time-and-travel
