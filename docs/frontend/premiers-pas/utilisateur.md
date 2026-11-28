@@ -7,6 +7,8 @@ next: false
 Votre compte est accessible depuis le menu de profil (en haut à droite) > `Profil`.
 Vous y retrouvez votre adhésion au club, vos présences et la sécurité de votre compte (mot de passe, clés d'accès).
 
+![](./images/generated/account.webp)
+
 ## Se connecter
 
 Deux méthodes de connexion sont disponibles :
@@ -33,14 +35,18 @@ La clé d'accès est enregistrée par votre téléphone, votre ordinateur ou vot
 3. Donnez-lui un nom si vous le souhaitez (par exemple « Téléphone »), puis cliquez sur `Créer la clé d'accès`.
 4. Validez avec votre appareil (empreinte, visage ou code).
 
+![](./images/generated/passkey-add.webp)
+
 Vous pouvez ajouter plusieurs clés d'accès, par exemple une par appareil.
 
 ### Se connecter avec une clé d'accès
 Sur la page de connexion :
 - cliquez dans le champ email : vos clés d'accès sont proposées dans les suggestions, choisissez la vôtre ;
-- ou cliquez sur `Se connecter avec une clé d'accès`.
+- ou cliquez sur `Connexion par clé d'accès`.
 
 Validez ensuite avec votre appareil : vous êtes connecté.
+
+![](./images/generated/login.webp)
 
 ::: tip
 Le bouton n'apparaît que si votre navigateur prend en charge les clés d'accès.
